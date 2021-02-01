@@ -8,3 +8,30 @@
   display: block;
   clear: both;
 }
+[class*="col-"]{
+  background-color: #ffb3b3;
+  height: calc(100vh / 5);
+}
+
+[class*="new-column-"]{
+  float: left;
+  height: 100%;
+  border: 3px solid #ffb3b3;
+  background-color: #ff8080;
+}
+
+.new-column-2{
+  width: calc((100% / 12) * 2);
+}
+.new-column-8{
+  width: calc((100% / 12) * 8);
+}
+.new-column-6{
+  width: calc((100% / 12) * 6);
+}
+
+span{
+  display: block;
+  text-align: center;
+  line-height: calc(100vh / 5);
+}
