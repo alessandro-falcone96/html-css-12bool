@@ -35,9 +35,3 @@ span{
   text-align: center;
   line-height: calc(100vh / 5);
 }
-
-.ciao{
-  height: 50px;
-  background-color: yellow;
-  float: left;
-}
